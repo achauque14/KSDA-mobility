@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Ksda-Mobility </title>
+        <link rel="stylesheet" href="/CSS/main.css">
+        <meta charset = "UTF-8">
+        <meta name="viewport" content = "width = device-width, initial-scale = 1.0">
+        <script src="https://kit.fontawesome.com/e0d878eb1f.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="" alt="Company logo">
+            </div>
+            <ul class="nav-list">
+                <li class="link-item">
+                    <a class="navbar-item 1" href="Index.html">Home</a></li>
+                <li class="link-item">
+                    <a class="navbar-item 2" href="ProductsPage.Html">products</a></li>
+                <li class="link-item">
+                    <a class="navbar-item 3" href="ShoppingCartpage.HTML">cart</a></li>
+                <li class="link-item">
+                    <a class="navbar-item 4" href="LoginPage.html">Login</a>
+                </li class="link-item">
+                <li class="link-item 5">
+                    <i class="fa-solid fa-magnifying-glass"  onclick="search()"></i>
+                </li>
+            </ul>
+        </nav>
+        <div class="product details">
+            <img src="" alt="" id="MainImage">
+            <p class="description"></p>       
+    </body>
+    <script>
+        let MainImage = document.getElementById("MainImage")
+        
+        let otherImg = document.getElementsByClassName('other-img')
+
+        let description = document.getElementsByClassName('description')
+        description.innerHTML= product.description
+    </script>
+</html>
