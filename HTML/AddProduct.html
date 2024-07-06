@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Ksda-Mobility </title>
+        <link rel="stylesheet" href="/CSS/main.css">
+        <meta charset = "UTF-8">
+        <meta name="viewport" content = "width = device-width, initial-scale = 1.0">
+        <script src="https://kit.fontawesome.com/e0d878eb1f.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <h1>Web page to add a new product</h1>
+        <Form action='/addProduct' id="product-form">
+            <label for="productName" class="product input">product Name</label>
+            <input type="text" id="productName" placeholder="Enter product name">
+            <br>
+            <label for="productPrice" class="">product price: </label>
+            <input type="number" id="productName" placeholder="Enter product price">
+            <br>
+            <label for="" class="">Description: </label>
+            <textarea id="description" placeholder="Enter description"></textarea>
+            <br>
+            <label for="productImage">Image:</label><br>
+            <input type="file" id="productImage" name="image">
+            <br>
+            <button type="submit">submit</button>
+        </Form>
+    </body>
+</html>
